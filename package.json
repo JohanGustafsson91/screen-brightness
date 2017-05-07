@@ -1,0 +1,19 @@
+{
+  "name": "screen-brightness",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js",
+    "prestart": "babel src --out-dir dist",
+    "start": "node dist/server.js"
+  },
+  "keywords": ["screen brightness nodejs"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0"
+  },
+  "dependencies": {}
+}

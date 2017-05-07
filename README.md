@@ -1,2 +1,2 @@
 # screen-brightness
-Script to decrease or increase screen brightness with arandr
+A script to deacrease or increase screen brightness with arandr
